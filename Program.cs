@@ -52,34 +52,34 @@
 // Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3.22, 4.2, 1.15, 77.15, 65.2] => 77.15 - 1.15 = 76
 
-double[] array = new double[5];
+// double[] array = new double[5];
 
-Console.Write("[ ");
+// Console.Write("[ ");
 
-for (int i = 0; i < array.Length; i++)
-{
-    array[i] = new Random().NextDouble() * (101);
-    Console.Write(array[i] + "; ");
-}
+// for (int i = 0; i < array.Length; i++)
+// {
+//     array[i] = new Random().NextDouble() * (101);
+//     Console.Write(array[i] + "; ");
+// }
 
-Console.Write("]");
+// Console.Write("]");
 
-double maxNumber = array[0];
-double minNumber = array[0];
+// double maxNumber = array[0];
+// double minNumber = array[0];
 
-for (int i = 0; i < array.Length; i++)
-{
-    if (maxNumber < array[i])
-    {
-        maxNumber = array[i];
-    }
-    else if (minNumber > array[i])
-    {
-        minNumber = array[i];
-    }
+// for (int i = 0; i < array.Length; i++)
+// {
+//     if (maxNumber < array[i])
+//     {
+//         maxNumber = array[i];
+//     }
+//     else if (minNumber > array[i])
+//     {
+//         minNumber = array[i];
+//     }
 
-}
-Console.WriteLine();
-Console.WriteLine($"Максимальный элемент массива:{maxNumber}");
-Console.WriteLine($"Минимальный элемент массива:{minNumber}");
-Console.WriteLine($"Разница между максимальным и минимальным элементом:{maxNumber - minNumber}");
+// }
+// Console.WriteLine();
+// Console.WriteLine($"Максимальный элемент массива:{maxNumber}");
+// Console.WriteLine($"Минимальный элемент массива:{minNumber}");
+// Console.WriteLine($"Разница между максимальным и минимальным элементом:{maxNumber - minNumber}");
